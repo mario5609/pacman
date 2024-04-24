@@ -1,0 +1,122 @@
+.activeWin {
+    overflow-y: hidden;
+}
+
+.win, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.winContent {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: rgb(4, 6, 55);
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.win img {
+    margin: auto;
+    transform: translateY(-20px);
+    margin-bottom: 40px;
+}
+
+.win h1 {
+    font-size: 50px;
+    animation: shine 1.5s infinite alternate;
+}
+
+.WinButton {
+    transform: translateY(-15px);
+    height: 35px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.001);
+    color: white;
+    margin: auto;
+    font-size: 22px;
+    animation: wink 2.5s infinite alternate;
+}
+
+@keyframes shine {
+
+    0%,
+    10%,
+    20%,
+    40%,
+    53%,
+    57%,
+    100% {
+        text-shadow:
+            0 0 4px rgb(255, 183, 0),
+            0 0 9px white,
+            0 0 11px rgb(255, 145, 0),
+            0 0 11px rgb(255, 145, 0),
+            0 0 19px rgb(255, 204, 0),
+            0 0 40px rgb(255, 204, 0),
+            0 0 80px rgb(255, 204, 0),
+            0 0 90px rgb(255, 204, 0),
+            0 0 100px rgb(255, 204, 0),
+            0 0 150px rgb(255, 204, 0);
+    }
+
+    30%,
+    60%,
+    80% {
+        text-shadow: none;
+    }
+}
+
+@keyframes wink {
+    100%,20%,60% {
+        box-shadow:
+            0px 0px 4px 1px white,
+            0px 0px 7px 3px yellow;
+        text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px white,
+            0 0 40px orangered,
+            0 0 80px orangered,
+            0 0 90px orangered,
+            0 0 100px orangered,
+            0 0 150px orangered;
+    }
+
+    0%,50%,80% {
+        box-shadow:
+            0px 0px 1px 1px white,
+            0px 0px 2px 1px orange;
+        text-shadow:
+            0 0 2px #fff,
+            0 0 4px #fff,
+            0 0 6px #fff,
+            0 0 10px orange,
+            0 0 10px orange,
+            0 0 10px orange,
+            0 0 45px orange,
+            0 0 55px orange,
+            0 0 70px orange,
+            0 0 80px orange;
+    }
+}

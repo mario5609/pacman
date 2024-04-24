@@ -1,0 +1,18 @@
+.innerPath {
+    height: 22px;
+    width: 22px;
+    background-color: rgb(8, 8, 8);
+    margin: 0px;
+}
+
+/*
+.innerPath {
+    height: 14px;
+    width: 14px;
+    background-color: rgb(8, 8, 8);
+    margin: 0px;
+    border-color: rgb(11, 11, 11);
+    border-width: 4px;
+    border-style:groove;
+}
+*/

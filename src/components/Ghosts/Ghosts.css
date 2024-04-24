@@ -1,0 +1,68 @@
+.Ghosts {
+    width: 22px;
+    height: 22px;
+    background-color: black;
+    align-content: center;
+    overflow: hidden;
+
+}
+
+.red .ghost {
+    background-color: red;
+}
+
+.pink .ghost {
+    background-color: pink;
+}
+
+.cyan .ghost {
+    background-color: cyan;
+}
+
+.orange .ghost {
+    background-color: orange;
+}
+
+.ghost {
+    transform: translateY(7.4px);
+    border-radius: 20px 20px 0px 0px;
+    height: 18px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.ghostEyes {
+    transform: translateY(2px);
+    margin: 1px;
+    border-radius: 10px;
+    height: 2px;
+    width: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(253, 251, 251);
+    background-color: black;
+}
+
+.wave {
+    height: 10px;
+    width: 35px;
+    animation: wiggle;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+
+}
+
+@keyframes wiggle {
+
+    0%,
+    100% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(0px);
+    }
+
+
+}

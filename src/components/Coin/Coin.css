@@ -1,0 +1,13 @@
+.coinBackground{
+    height: 22px;
+    width: 22px;
+    background-color: black;
+    align-content: center;
+}
+.coin{
+    margin: auto;
+    height: 6px;
+    width: 6px;
+    background-color: yellow;
+    border-radius: 10px;
+}

@@ -1,0 +1,114 @@
+* {
+    text-align: center;
+}
+
+.theme {
+    background-image: url(../../assets/images/w1.webp);
+    background-repeat: repeat;
+}
+.header{
+    margin-top: 10px;
+   width: 280px; 
+}
+
+/*------------------------------------------------------------------------------*/
+.infoBar {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    width: 465px;
+    margin: auto;
+}
+
+.infoBarDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoBarDetails p {
+    text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 10px aquamarine,
+        0 0 10px aqua,
+        0 0 10px blue;
+}
+
+.playerName {
+    color: #fff;
+    background-color: rgba(199, 252, 251, 0);
+    box-shadow: 0px 0px 6px 2px rgb(170, 223, 249);
+    height: 25px;
+    width: 90px;
+    margin: auto;
+    border-width: 1px;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.playerName::placeholder {
+    color: aliceblue;
+}
+
+.detailValues {
+    box-shadow: 0px 0px 6px 2px rgb(170, 223, 249);
+    border-width: 1px;
+    border-style: groove;
+    border-radius: 10px;
+    height: 25px;
+    width: 80px;
+    margin: auto;
+    padding-top: 3px;
+}
+
+/*------------------------------------------------------------------------------*/
+.borderBox {
+    display: grid;
+    grid-gap: 0px;
+    align-items: flex-start;
+    width: fit-content;
+    margin: auto;
+    border-color: black;
+    border-style: groove;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+/*------------------------------------------------------------------------------*/
+.settings {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.settings Button {
+    transform: translateY(-15px);
+    height: 35px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.001);
+    box-shadow: 0px 0px 8px 5px rgb(140, 0, 255);
+    color: white;
+    margin: auto;
+    font-size: 22px;
+    text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 10px aquamarine,
+        0 0 10px aqua,
+        0 0 10px blue;
+}
+
+/*
+border-style: ridge;
+border-width: 8px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-color: rgb(115, 0, 255);
+background-color: rgb(104, 1, 173);
+color: white;
+font-size: 18px;
+*/

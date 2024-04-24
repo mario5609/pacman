@@ -1,0 +1,22 @@
+.outerPath{
+    height: 22px;
+    width: 22px;
+    background-color: rgb(67, 6, 172);
+    margin: 0px;
+    display: inline-block;
+    position: static;
+}
+
+
+/*
+.outerPath{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(20, 20, 193);
+    margin: 0px;
+    border-color: rgb(2, 2, 88);
+    border-width: 6px;
+    border-style: ridge;
+    display: inline-block;
+}
+*/
